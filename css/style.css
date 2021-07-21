@@ -1,0 +1,385 @@
+body,html{
+  margin: 0px 73px 0px 73px;
+  line-height: 30px;
+  letter-spacing: 1;
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #EEEEEE;
+}
+
+.site-header{
+  width: 100%;
+  height: 100%;
+
+}
+.wrapper-group{
+  width:100%;
+  height: 100%;
+
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.top-group{
+  width: 80%;
+  height: 80%;
+
+  position: absolute;
+  z-index: 1;
+  display: flex;
+}
+.top-top{
+  width: 50%;
+  height: 90%;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.top-top h1{
+  color:#CC0064;
+  font-weight: normal;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 35px;
+}
+.top-top h3{
+  color:#0095BF;
+  font-weight: normal;
+  font-size: 20px;
+
+}
+.top-top p{
+  width: 70%;
+  line-height: 35px;
+}
+.top-top a{
+  text-decoration: none;
+  background-color:#0095BF;
+  color:white;
+  padding: 12px 28px 12px 28px;
+  border-radius: 10px;
+}
+.wrapper-group::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  transform-origin: left;
+  transform: skewY(-5deg);
+  background-image: url('../images/spot-bg-01.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+
+}
+
+
+.wrapper1{
+  width: 100%;
+  height: 80%;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wrapper1::before{
+  content: '';
+  width: 100%;
+  height: 50%;
+
+  position:   absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  transform-origin:top left;
+  transform: skewY(-5deg);
+  z-index: -1;
+}
+.top-group1{
+  width: 90%;
+  height: 90%;
+
+  position: absolute;
+  z-index: 1;
+  display: flex;
+}
+.top-top1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.top-top1 h1{
+  color:#0095BF;
+  font-weight: normal;
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 35px;
+}
+.top-top1 p{
+  width: 50%;
+  line-height: 35px;
+  color:grey;
+}
+.top-top1 a{
+  text-decoration: none;
+  background-color:#0095BF;
+  color:white;
+  padding: 12px 28px 12px 28px;
+  border-radius: 10px;
+}
+.top-top-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('../images/img-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper1::after{
+  content: '';
+  width: 100%;
+  height: 50%;
+
+  position:   absolute;
+
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  transform-origin: bottom left;
+  transform: skewY(5deg);
+  z-index: -1;
+}
+
+.wrapper2{
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  position: relative;
+    transform: skewY(5deg);
+    background-image: url('../images/spot-bg-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper2-top{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+
+  transform: skewY(-5deg);
+}
+.top-top3{
+  width: 50%;
+  height: 90%;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.top-top3 h3{
+  color:#CC0064;
+  font-weight: normal;
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 35px;
+}
+.top-top3 p{
+  width: 50%;
+  line-height: 35px;
+  color:grey;
+  font-size: 18px;
+}
+.top-top3 ul{
+  list-style:decimal;
+  font-size: 17px;
+}
+.wrapper3{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: white;
+  top:-190px;
+  transform-origin:bottom right;
+  transform:skewY(-5deg);
+
+
+}
+.wrapper3::before{
+  content:'';
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  bottom: 0px;
+}
+.top-group3{
+  width: 80%;
+  height: 80%;
+  margin-top: 80px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewY(5deg);
+}
+.top-top-img1{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url('../images/img-02.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-top-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.top-top-form input{
+  width: 50%;
+  height: 50px;
+  margin: 25px;
+  border: none;
+  border-bottom: 1px solid #CC0064;
+
+}
+.top-top-form input:nth-child(3){
+  height: 95px;
+}
+.top-top-form input:nth-child(4){
+  width: 20%;
+  text-align: center;
+  background-color:#CC0064;
+  color:white;
+  border-radius: 10px;
+}
+.top-top-form h3{
+  margin-top: 50px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.site-header{
+  width: 100%;
+  height: 95%;
+  background-color: grey;
+  border-bottom: 18px solid;
+  border-spacing: 15px;
+  background-image: url('../images/spot-bg-01.jpg');
+  background-position:top;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  float: left;
+
+}
+.wrapper-group{
+  width: 75%;
+  height: 75%;
+
+  margin-top: 25px;
+
+}
+.wrapper-left{
+  width: 50%;
+  height: 100%;
+  background-color: white;;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper-left h1{
+  color:#CC0064;
+  font-weight: normal;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 35px;
+}
+.wrapper-left h3{
+  color:#0095BF;
+  font-weight: normal;
+  font-size: 20px;
+
+}
+.wrapper-left p{
+  width: 70%;
+  line-height: 35px;
+}
+.wrapper-left a{
+  text-decoration: none;
+  background-color:#0095BF;
+  color:white;
+  padding: 12px 28px 12px 28px;
+  border-radius: 10px;
+}
+/*****************footer********/
+/*.site-footer{
+  width: 100%;
+  height: 95%;
+  background-color: grey;
+  transform-origin: left;
+
+} */
